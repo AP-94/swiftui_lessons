@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2B6CDBE29142277006818FD /* StateBindingLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6CDBD29142277006818FD /* StateBindingLessonView.swift */; };
 		D2CF0FBA2912C16B00E5B3C9 /* SwiftUILessonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF0FB92912C16B00E5B3C9 /* SwiftUILessonsApp.swift */; };
-		D2CF0FBC2912C16B00E5B3C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CF0FBB2912C16B00E5B3C9 /* ContentView.swift */; };
 		D2CF0FBE2912C16E00E5B3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CF0FBD2912C16E00E5B3C9 /* Assets.xcassets */; };
 		D2CF0FC12912C16E00E5B3C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CF0FC02912C16E00E5B3C9 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2B6CDBD29142277006818FD /* StateBindingLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingLessonView.swift; sourceTree = "<group>"; };
 		D2CF0FB62912C16B00E5B3C9 /* SwiftUILessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CF0FB92912C16B00E5B3C9 /* SwiftUILessonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILessonsApp.swift; sourceTree = "<group>"; };
-		D2CF0FBB2912C16B00E5B3C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2CF0FBD2912C16E00E5B3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CF0FC02912C16E00E5B3C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,8 @@
 		D2CF0FB82912C16B00E5B3C9 /* SwiftUILessons */ = {
 			isa = PBXGroup;
 			children = (
+				D2CF0FC72912C9F300E5B3C9 /* 2nd Class */,
 				D2CF0FB92912C16B00E5B3C9 /* SwiftUILessonsApp.swift */,
-				D2CF0FBB2912C16B00E5B3C9 /* ContentView.swift */,
 				D2CF0FBD2912C16E00E5B3C9 /* Assets.xcassets */,
 				D2CF0FBF2912C16E00E5B3C9 /* Preview Content */,
 			);
@@ -65,6 +65,22 @@
 				D2CF0FC02912C16E00E5B3C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2CF0FC72912C9F300E5B3C9 /* 2nd Class */ = {
+			isa = PBXGroup;
+			children = (
+				D2CF0FC82912C9FC00E5B3C9 /* Lesson */,
+			);
+			path = "2nd Class";
+			sourceTree = "<group>";
+		};
+		D2CF0FC82912C9FC00E5B3C9 /* Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				D2B6CDBD29142277006818FD /* StateBindingLessonView.swift */,
+			);
+			path = Lesson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CF0FBC2912C16B00E5B3C9 /* ContentView.swift in Sources */,
+				D2B6CDBE29142277006818FD /* StateBindingLessonView.swift in Sources */,
 				D2CF0FBA2912C16B00E5B3C9 /* SwiftUILessonsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
